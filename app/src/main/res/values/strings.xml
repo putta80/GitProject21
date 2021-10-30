@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SalarayCalculation</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="iderror">Enter a valid id</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="bsalary">Enter a valid basic salary</string>
+    <string name="other">Enter a valid benifts</string>
+</resources>

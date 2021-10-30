@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Name"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="125dp" />
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="102dp" />
+    <TextView
+        android:id="@+id/txtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee ID"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="184dp" />
+    <EditText
+        android:id="@+id/edID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="171dp" />
+    <TextView
+        android:id="@+id/txtNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="245dp" />
+    <EditText
+        android:id="@+id/edNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="236dp" />
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Mail"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="304dp" />
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="290dp" />
+    <TextView
+        android:id="@+id/txtSalry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Salary"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="359dp" />
+    <EditText
+        android:id="@+id/edSal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="351dp" />
+    <TextView
+        android:id="@+id/txtBeni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other Benifits"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="415dp" />
+    <EditText
+        android:id="@+id/edBen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="401dp" />
+    <TextView
+        android:id="@+id/txtSal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Salary"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="471dp" />
+    <EditText
+        android:id="@+id/edTsal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="447dp" />
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="514dp" />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="519dp" />
+    <Button
+        android:id="@+id/btnDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="519dp" />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="590dp" />
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="590dp" />
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="590dp" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HR Employee’s Salary Calculation"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="31dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
